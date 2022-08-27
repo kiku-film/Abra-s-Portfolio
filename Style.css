@@ -275,7 +275,7 @@ a:hover {
 .Game {
     border: 0px solid #b8b8b8;
     border-radius: 5px;
-    display: grid;
+    display: inline-grid;
     margin-right: 8px;
     margin-left: 8px;
     margin-top: 8px;
@@ -285,7 +285,8 @@ a:hover {
 .GameImage {
     width: 390px;
     height: 280px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     border: 0px, #1D1D1D, solid;
     border-radius: 5px;
 }
